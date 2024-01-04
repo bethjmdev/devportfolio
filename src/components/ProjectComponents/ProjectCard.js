@@ -3,12 +3,14 @@ import React from "react";
 import Modal from "../Modal/Modal";
 
 import site from "../images/world-wide-web.png";
+import camera from "../images/Camera-SVG.png";
 
 const ProjectCard = ({
   imageSrc,
   githubLink,
   loomLink,
   siteLink,
+  photoLink,
   altText,
   title,
   description,
@@ -39,6 +41,11 @@ const ProjectCard = ({
         {siteLink && (
           <a href={siteLink} target="_blank" rel="noopener noreferrer">
             <img src={site} alt="globe signifying world wide web" />
+          </a>
+        )}
+        {photoLink && (
+          <a href={photoLink} target="_blank" rel="noopener noreferrer">
+            <img src={camera} alt="a photo of a camera" />
           </a>
         )}
         {showModal && (

@@ -1,6 +1,8 @@
 import "./Intro.css";
 import React from "react";
 
+import screenShot from "./images/videoScreenShot.png";
+
 const Intro = () => {
   return (
     <div className="intro" id="intro">
@@ -10,12 +12,9 @@ const Intro = () => {
           <h3>Full Stack Web Developer</h3>
         </div>
         <div className="content-2">
-          <iframe
-            src="https://www.youtube.com/embed/hMgJNbKhi3E"
-            title="Youtube Player"
-            frameborder="0"
-            allowFullScreen
-          />
+          <a href="https://www.loom.com/share/5293069034964ab19fcfabaf2758ea25">
+            <img src={screenShot} alt="video thumbnail" className="photo" />
+          </a>
         </div>
       </div>
     </div>

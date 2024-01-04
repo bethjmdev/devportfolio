@@ -34,6 +34,11 @@
   font-weight: 700;
 }
 
+.intro .content .photo {
+  width: 55rem;
+  height: 30rem;
+}
+
 .intro .content h3 {
   font-size: 2.2rem;
 }
@@ -44,11 +49,6 @@
 
 .intro .content .content-2 {
   margin-top: 5%;
-}
-
-.intro .content .content-2 iframe {
-  width: 50rem;
-  height: 30rem;
 }
 
 @media screen and (max-width: 1240px) {
@@ -68,13 +68,13 @@
     font-size: 2.6rem;
   }
 
-  .hero .content h3 {
-    font-size: 1.6rem;
+  .intro .content .photo {
+    width: 40rem;
+    height: 25rem;
   }
 
-  .intro .content .content-2 iframe {
-    width: 30rem;
-    height: 20rem;
+  .hero .content h3 {
+    font-size: 1.6rem;
   }
 }
 
@@ -87,9 +87,8 @@
     margin-top: 4rem;
   }
 
-  .intro .content .content-2 iframe {
+  .intro .content .photo {
     width: 21rem;
     height: 15rem;
-    margin-top: 1rem;
   }
 }
