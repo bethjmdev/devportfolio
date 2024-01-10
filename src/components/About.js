@@ -6,6 +6,8 @@ import "./About.css";
 const About = () => {
   return (
     <div className="about" id="about">
+      <h2>Hey There 👋🏼</h2>
+      <span className="line"></span>
       <div className="container">
         <img src={beth} alt="photo of Beth sitting on a mountain top" />
         <div className="col-2">

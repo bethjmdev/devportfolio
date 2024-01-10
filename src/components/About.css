@@ -5,6 +5,10 @@
   width: 100%;
 }
 
+.about h2 {
+  text-align: center;
+}
+
 .about .container {
   margin: auto;
   width: 80%;
@@ -15,7 +19,7 @@
 .about .container img {
   width: 30rem;
   height: 30rem;
-  margin: auto;
+  /* margin: auto; */
   border-radius: 5rem;
 }
 
@@ -24,11 +28,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 3rem;
-}
-
-.about .col-2 p {
-  margin: 2rem 0;
+  gap: 1.25rem;
 }
 
 .about button {
@@ -56,8 +56,8 @@
 
   .about .container img {
     padding: 0rem;
-    width: 90vw;
-    height: 90vw;
+    width: 90rem;
+    height: 90rem;
   }
 
   .about .container .col-2 {
