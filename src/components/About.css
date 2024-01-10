@@ -19,7 +19,6 @@
 .about .container img {
   width: 30rem;
   height: 30rem;
-  /* margin: auto; */
   border-radius: 5rem;
 }
 
@@ -56,8 +55,8 @@
 
   .about .container img {
     padding: 0rem;
-    width: 90rem;
-    height: 90rem;
+    width: 30rem;
+    height: 30rem;
   }
 
   .about .container .col-2 {
