@@ -6,7 +6,6 @@ import ProjectCard from "./ProjectComponents/ProjectCard";
 import foodapp from "./images/foodapp.png";
 import dmdock from "./images/dmdock.png";
 import woods from "./images/lostinwoods.png";
-import exerciseapp from "./images/exercise_app.png";
 
 const Projects = () => {
   return (
@@ -16,34 +15,10 @@ const Projects = () => {
 
       <div className="container">
         <ProjectCard
-          imageSrc={exerciseapp}
-          githubLink="https://github.com/bethjm/exercise_app_frontend"
-          loomLink="https://www.loom.com/share/5293069034964ab19fcfabaf2758ea25"
-          photoLink="https://github.com/bethjm/exercise_app_frontend/tree/main/ScreenShots"
-          altText="a photo of SideKick HomePage"
-          title="StrengthSidekick"
-          description="StrengthSidekick leverages an algorithm rooted in biomechanics to generate tailor-made workouts based on individual goals, experience levels, and available equipment. This app mimics the expertise of a personal trainer to create workouts that prioritize both effectiveness and efficiency. "
-          techStack={[
-            "React Native",
-            "AsyncStorage",
-            "StyleSheet",
-            "StackNavigation",
-            "Android Studio",
-            "Gunicorn",
-            "RESTFul Routes",
-            "PostgreSql",
-            "React.js",
-            "Python",
-            "JavaScript",
-            "Django",
-          ]}
-        />
-
-        <ProjectCard
           imageSrc={dmdock}
           githubLink="https://github.com/bethjm/dmdock-front-end.git"
           loomLink="https://www.loom.com/share/79a18aa78f994443b3b9c99917aa87a3"
-          photoLink="https://github.com/bethjm/devportfolio/tree/main/DMDock"
+          siteLink="https://dmdock.netlify.app/"
           altText="a photo of DMDock Monster API"
           title="DM DOCK"
           description="An online app for D&D Game Masters to easily access campaign details during gameplay. This allows them to research new monsters and save them to favorites. They are also able to save data about their players to easily access and change during gameplay."
@@ -87,8 +62,6 @@ const Projects = () => {
             "Flexbox",
           ]}
         />
-
-        {/* Add more ProjectCard instances for additional projects */}
       </div>
     </div>
   );

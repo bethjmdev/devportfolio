@@ -25,6 +25,9 @@ const WorkCard = ({
           <a href={githubLink}>
             <button className="github_button">View GitHub</button>
           </a>
+          <a href={webLink}>
+            <button className="github_button">View App</button>
+          </a>
         </div>
         <p>{description}</p>
         <div className="container-2">

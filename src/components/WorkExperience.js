@@ -5,10 +5,11 @@ import "./WorkExperience.css";
 
 import bodywork from "./images/bodywork.png";
 import waggy from "./images/waggyapp.png";
+import sidekick from "./images/strengthsidekick.png";
 
 const WorkExpereince = () => {
   return (
-    <div className="workexpmain">
+    <div className="workexpmain" id="workexp">
       <div className="title">
         <h2>Work Experience</h2>
         <span className="line"></span>
@@ -54,7 +55,27 @@ const WorkExpereince = () => {
             "React Navigation",
             "React Hooks",
           ]}
-          webLink={null}
+          webLink={"https://waggyadoptquiz.netlify.app/"}
+        />
+        <WorkCard
+          title="Strength SideKick"
+          image={sidekick}
+          position="Full Stack React Native Developer"
+          date="November 2023- Current"
+          githubLink="https://strengthsidekick.netlify.app/"
+          description="A Javascript algorithm tailors workouts based on user-specific goals, experience levels, and available equipment. The algorithm separately creates a warm up and a workout and cross references one another to eliminate repeat exercise. Reps and sets are also determined by the algorithm based on the users goals."
+          skills={[
+            "React Native",
+            "AsyncStorage",
+            "Django",
+            "RESTFul Routes",
+            "PostgreSQL",
+            "StyleSheets",
+            "Gunicorn",
+            "Custom JSON API",
+            "React Native Web",
+          ]}
+          webLink={"https://strengthsidekick.netlify.app/"}
         />
       </div>
     </div>

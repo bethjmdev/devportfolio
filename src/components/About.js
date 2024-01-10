@@ -11,24 +11,30 @@ const About = () => {
         <div className="col-2">
           <p>
             <b>
-              My journey is a testament to the potential that lies within each
-              one of us when we set our minds to something and wholeheartedly
-              pursue our goals.
+              My combined experience in personal training and software
+              engineering has significantly shaped my problem-solving skills and
+              approach as a team player and collaborator.
             </b>
           </p>
           <p>
-            As I transition into the field of software engineering, I see it as
-            the pivotal moment that will mark the turning point for my family's
-            future. Becoming a software engineer is not just a career choice; it
-            is my personal mission to make the American dream a reality for
-            myself. Armed with a commitment to learning and an unyielding drive
-            to create a lasting impact on society, I am ready to embrace the
-            challenges that lie ahead.
+            Integrating biomechanics into my training background sparked a
+            passion for using analytical strategies combined with empathetic
+            approaches, guiding my transition into software engineering
+            seamlessly. Driven by a strong commitment to learning and teamwork,
+            I am motivated by a pursuit of excellence and a constant desire for
+            knowledge. I am excited to join a team that values these principles,
+            eager to contribute my skills towards shared goals while exploring
+            innovative paths to success.
           </p>
           <p>
-            With this endeavor, I am determined to prove that regardless of
-            one's background or circumstances, with passion and perseverance, we
-            can transcend any obstacle and achieve greatness.
+            Collaboration is the foundation of my work ethic. Embracing
+            different perspectives while advocating for my ideas has been
+            crucial in my previous roles. Thriving in dynamic environments, I've
+            always supported a culture that prioritizes collective success. My
+            personal training experience has given me essential qualities for
+            effective collaboration—such as empathy, adaptability, and a deep
+            understanding of individual needs. These traits help me foster
+            teamwork and nurture supportive relationships in any group setting.
           </p>
         </div>
       </div>
