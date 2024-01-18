@@ -62,7 +62,7 @@ const WorkExpereince = () => {
           image={sidekick}
           position="Full Stack React Native Developer"
           date="November 2023- Current"
-          githubLink="https://strengthsidekick.netlify.app/"
+          githubLink="https://github.com/bethjm/exercise_app_frontend"
           description="A Javascript algorithm tailors workouts based on user-specific goals, experience levels, and available equipment. The algorithm separately creates a warm up and a workout and cross references one another to eliminate repeat exercise. Reps and sets are also determined by the algorithm based on the users goals."
           skills={[
             "React Native",
