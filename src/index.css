@@ -21,6 +21,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-size: 1.2rem;
   line-height: 1.2;
+  min-width: 400px;
 }
 
 code {

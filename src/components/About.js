@@ -9,7 +9,9 @@ const About = () => {
       <h2>Hey There 👋🏼</h2>
       <span className="line"></span>
       <div className="container">
-        <img src={beth} alt="photo of Beth sitting on a mountain top" />
+        <div className="photo-box">
+          <img src={beth} alt="photo of Beth sitting on a mountain top" />
+        </div>
         <div className="col-2">
           <p>
             <b>
