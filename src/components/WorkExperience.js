@@ -20,7 +20,7 @@ const WorkExpereince = () => {
           image={bodywork}
           position="Front End Developer"
           date="June 2023 - August 2023"
-          githubLink="https://github.com/bethjm/stephmassage"
+          githubLink="https://github.com/bethjm/massage_website"
           description="In close collaboration with the client and the UX designer, a mobile-first approach was employed to align the website's visual design with the brand identity and effectively communicate the client's distinctive offerings. The development process utilized React.js and React Router, leveraging reusable components to enhance code maintainability and scalability. Additionally, two custom APIs were created to seamlessly integrate dynamic content into the website's framework."
           skills={[
             "React.js",
