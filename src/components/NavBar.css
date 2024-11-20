@@ -31,12 +31,13 @@
   gap: 1.3rem;
 }
 
-.navbar-container .nav-links p {
+.navbar-container .nav-links a {
   cursor: pointer;
   transition: text-decoration 0.3s ease;
+  color: black;
 }
 
-.navbar-container .nav-links p:hover {
+.navbar-container .nav-links a:hover {
   text-decoration: underline;
   text-decoration-color: black;
   text-decoration-thickness: 2px;

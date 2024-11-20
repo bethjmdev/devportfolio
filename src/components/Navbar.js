@@ -16,11 +16,11 @@ function NavBar() {
           <p>Beth Mills</p>
         </div>
         <div className={`nav-links ${isMenuOpen ? "active" : ""}`}>
-          <p>Home</p>
-          <p>About</p>
-          <p>Work</p>
-          <p>Projects</p>
-          <p>Contact</p>
+          <a href="#Header">Home</a>
+          <a href="#About">About</a>
+          <a href="#Experience">Work</a>
+          <a href="#Projects">Projects</a>
+          <a href="#Contact">Contact</a>
         </div>
         <div className="hamburger" onClick={toggleMenu}>
           <div className="bar"></div>
