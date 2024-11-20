@@ -1,10 +1,9 @@
 .projectcontainer {
-  padding-bottom: 2rem;
+  padding-bottom: 5rem;
 }
 
 .projectcontainer-container {
   display: flex;
-  flex-direction: row;
   width: 100%;
   padding-left: 8rem;
   padding-right: 8rem;
@@ -39,7 +38,6 @@
 }
 
 .projectcontainer-container .image p {
-  /* background-color: #7843e8; */
   width: 100%;
   height: 50vh;
   /* this is temp until I get to coding the image */
@@ -55,7 +53,7 @@
   margin-bottom: 2rem;
 }
 
-.project-details .text h4 {
+.project-details .text h3 {
   margin-bottom: 0.5rem;
 }
 
