@@ -5,7 +5,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faVideo, faGlobe } from "@fortawesome/free-solid-svg-icons";
 
-function ProjectContainer({ gitHub, loom, website, HeaderText, ParaText }) {
+function ProjectContainer({
+  gitHub,
+  loom,
+  website,
+  HeaderText,
+  Description,
+  TechText,
+}) {
   return (
     <div className="projectcontainer">
       <div className="projectcontainer-container">
@@ -13,6 +20,11 @@ function ProjectContainer({ gitHub, loom, website, HeaderText, ParaText }) {
           <p>image</p>
         </div>
         <div className="project-details">
+          <div className="text">
+            <p>{HeaderText}</p>
+            <p>{Description}</p>
+            <p>{TechText}</p>
+          </div>
           <div className="icons">
             <a href={gitHub} target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} />
@@ -25,10 +37,6 @@ function ProjectContainer({ gitHub, loom, website, HeaderText, ParaText }) {
                 <FontAwesomeIcon icon={faGlobe} />
               </a>
             )}
-          </div>
-          <div className="text">
-            <p>{HeaderText}</p>
-            <p>{ParaText}</p>
           </div>
         </div>
       </div>

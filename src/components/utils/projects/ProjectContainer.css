@@ -51,9 +51,31 @@
   width: 50%;
 }
 
-@media only screen and (max-width: 768px) {
+.projectcontainer .icons {
+  color: black;
+  width: 10rem;
+  display: flex;
+  gap: 3rem;
+  font-size: 3rem;
+}
+
+.projectcontainer .icons a {
+  color: black;
+}
+
+@media only screen and (max-width: 1000px) {
   .projectcontainer-container {
     flex-direction: column;
     justify-content: center;
+    gap: 0.5rem;
+  }
+  .projectcontainer-container .image {
+    width: 100%;
+  }
+
+  .projectcontainer-container .project-details {
+    width: 100%;
+    align-items: center;
+    gap: 1rem;
   }
 }
