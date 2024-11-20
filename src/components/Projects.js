@@ -12,7 +12,7 @@ function Projects() {
         </div>
 
         <ProjectContainer
-          gitHub={"youtube.com"}
+          gitHub={"https://github.com/bethjmdev/brew_map"}
           loom={"youtube.com"}
           website={"youtube.com"}
           HeaderText={"BrewMap"}

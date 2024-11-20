@@ -21,7 +21,7 @@ function ProjectContainer({
         </div>
         <div className="project-details">
           <div className="text">
-            <p>{HeaderText}</p>
+            <h4>{HeaderText}</h4>
             <p>{Description}</p>
             <p>{TechText}</p>
           </div>
