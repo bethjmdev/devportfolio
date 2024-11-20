@@ -13,48 +13,7 @@ function App() {
       <NavBar />
       <Header />
       <About />
-      <Experience />
-      <Projects />
-      <Contact />
-      {/*  */}
-
-      <Experience />
-      <Projects />
-      <Contact />
-
-      <Experience />
-      <Projects />
-      <Contact />
-
-      <Experience />
-      <Projects />
-      <Contact />
-
-      <Experience />
-      <Projects />
-      <Contact />
-
-      <Experience />
-      <Projects />
-      <Contact />
-
-      <Experience />
-      <Projects />
-      <Contact />
-
-      <Experience />
-      <Projects />
-      <Contact />
-
-      <Experience />
-      <Projects />
-      <Contact />
-
-      <Experience />
-      <Projects />
-      <Contact />
-
-      <Experience />
+      {/* <Experience /> */}
       <Projects />
       <Contact />
     </div>
