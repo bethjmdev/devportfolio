@@ -9,12 +9,42 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <div>
-      {/* <NavBar /> */}
+      <NavBar />
       <Header />
-      {/* <About />
+      <About />
       <Experience />
       <Projects />
-      <Contact /> */}
+      <Contact />
+      {/*  */}
+      <About />
+      <Experience />
+      <Projects />
+      <About />
+      <Experience />
+      <Projects />
+      <Contact />
+      <About />
+      <Experience />
+      <Projects />
+      <Contact />
+      <About />
+      <Experience />
+      <Projects />
+      <Contact />
+      <About />
+      <Experience />
+      <Projects />
+      <Contact />
+
+      <About />
+      <Experience />
+      <Projects />
+      <Contact />
+      <About />
+      <Experience />
+      <Projects />
+      <Contact />
+      <Contact />
     </div>
   );
 }
