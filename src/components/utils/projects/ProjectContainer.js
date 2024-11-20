@@ -7,23 +7,30 @@ import { faVideo, faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 function ProjectContainer({ gitHub, loom, website, HeaderText, ParaText }) {
   return (
-    <div>
-      <div className="icons">
-        <a href={gitHub} target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faGithub} />
-        </a>
-        <a href={loom} target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faVideo} />
-        </a>
-        {website && (
-          <a href={website} target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faGlobe} />
-          </a>
-        )}
-      </div>
-      <div className="text">
-        <p>{HeaderText}</p>
-        <p>{ParaText}</p>
+    <div className="projectcontainer">
+      <div className="projectcontainer-container">
+        <div className="image">
+          <p>image</p>
+        </div>
+        <div className="project-details">
+          <div className="icons">
+            <a href={gitHub} target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
+            <a href={loom} target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faVideo} />
+            </a>
+            {website && (
+              <a href={website} target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faGlobe} />
+              </a>
+            )}
+          </div>
+          <div className="text">
+            <p>{HeaderText}</p>
+            <p>{ParaText}</p>
+          </div>
+        </div>
       </div>
     </div>
   );

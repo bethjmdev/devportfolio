@@ -1,0 +1,59 @@
+.projectcontainer {
+  padding-bottom: 2rem;
+}
+
+.projectcontainer-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+.title h2 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.title #hr {
+  width: 30px;
+  height: 5px;
+  background-color: #7843e8;
+  border: none;
+  border-radius: 3px;
+}
+
+.projectcontainer-container .image {
+  width: 50%;
+}
+
+.projectcontainer-container .image p {
+  background-color: #7843e8;
+  width: 100%;
+  height: 50vh;
+  /* this is temp until I get to coding the image */
+}
+
+.projectcontainer-container .project-details {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .projectcontainer-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
