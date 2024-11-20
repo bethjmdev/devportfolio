@@ -2,7 +2,7 @@
   width: 100%;
   background-color: #f8f8f8;
   padding-top: 2rem;
-  padding-bottom: 3rem;
+  padding-bottom: 5rem;
 }
 
 .about .about-container {
@@ -37,10 +37,37 @@
 .about .about-container .info {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .about .info .know-me {
   width: 50%;
+}
+
+.about .info .know-me h4 {
+  margin-bottom: 1rem;
+}
+
+.about .info .skills {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about .info .skills h3 {
+  margin: 0.5rem;
+}
+
+.about .skills .icon {
+  background-color: #e7e7e7;
+  padding: 0.5rem;
+  font-size: 1rem;
+  text-transform: capitalize;
+  display: inline-block;
+  border-radius: 4px;
+  max-width: 100%;
+  margin: 0.5rem;
+  white-space: nowrap;
 }
 
 @media only screen and (max-width: 768px) {
@@ -58,6 +85,10 @@
   }
 
   .about .info .know-me {
+    width: 100%;
+  }
+
+  .about .info .skills {
     width: 100%;
   }
 }
