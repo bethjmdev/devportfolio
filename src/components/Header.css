@@ -68,6 +68,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    height: 70vh;
   }
 
   .header-container {
