@@ -17,44 +17,43 @@ function App() {
       <Projects />
       <Contact />
       {/*  */}
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
-      <About />
+
       <Experience />
       <Projects />
       <Contact />
 
-      <About />
       <Experience />
       <Projects />
       <Contact />
-      <About />
+
       <Experience />
       <Projects />
       <Contact />
-      <About />
+
       <Experience />
       <Projects />
       <Contact />
-      <About />
+
       <Experience />
       <Projects />
       <Contact />
-      <About />
+
+      <Experience />
+      <Projects />
+      <Contact />
+
+      <Experience />
+      <Projects />
+      <Contact />
+
+      <Experience />
+      <Projects />
+      <Contact />
+
+      <Experience />
+      <Projects />
+      <Contact />
+
       <Experience />
       <Projects />
       <Contact />

@@ -7,8 +7,6 @@ import LinkNavBar from "./utils/LinkNavBar";
 function Header() {
   return (
     <>
-      {/* <LinkNavBar className="LinkBar" /> */}
-
       <div className="header" id="Header">
         <div className="header-container">
           <h1>Hey, I'm Beth Mills</h1>
