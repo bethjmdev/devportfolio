@@ -15,36 +15,6 @@ function App() {
       <Experience />
       <Projects />
       <Contact />
-      {/*  */}
-      <About />
-      <Experience />
-      <Projects />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
-
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
-      <Contact />
     </div>
   );
 }
