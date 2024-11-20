@@ -1,24 +1,20 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Intro from "./components/Intro";
+import NavBar from "./components/NavBar";
+import Header from "./components/Header";
 import About from "./components/About";
+import Experience from "./components/Experience";
 import Projects from "./components/Projects";
-import WorkExperience from "./components/WorkExperience";
-import Languages from "./components/Languages";
 import Contact from "./components/Contact";
-import Footer from "./components/Footer";
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Intro />
+      <NavBar />
+      <Header />
       <About />
-      <WorkExperience />
+      <Experience />
       <Projects />
-      <Languages />
       <Contact />
-      <Footer />
     </div>
   );
 }
