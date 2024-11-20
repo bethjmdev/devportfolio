@@ -2,6 +2,43 @@ import React from "react";
 import "./About.css";
 
 function About() {
+  const skills = [
+    "JavaScript",
+    "Python",
+    "Dart",
+    "SQL",
+    "HTML",
+    "CSS",
+    "React.js",
+    "React Native",
+    "Django",
+    "Next.js",
+    "Mongoose",
+    "Axios",
+    "Cheerio",
+    "Jest",
+    "EJS",
+    "Flutter",
+    "PostgreSQL",
+    "MongoDB",
+    "Firebase Firestore",
+    "Node",
+    "RESTful Routes",
+    "JSON Web Token (JWT)",
+    "APIs",
+    "Google Cloud Functions",
+    "Google Cloud Platform (GCP)",
+    "AWS",
+    "Firebase",
+    "Google Maps API",
+    "Twilio",
+    "SendGrid",
+    "GIT",
+    "Postman",
+    "Agile",
+    "Unit Testing",
+  ];
+
   return (
     <div id="About" className="about">
       <div className="about-container">
@@ -15,7 +52,7 @@ function About() {
         <div className="info">
           <div className="know-me">
             <h4>Get to know me!</h4>
-            <br />
+            {/* <br /> */}
             <p>
               I’m a full-stack developer at Hōmbaez, a fintech and proptech
               company, where I build their B2B web app and B2C mobile app. My
@@ -51,7 +88,14 @@ function About() {
             </p>
           </div>
           <div className="skills">
-            <p>----list of skills</p>
+            <h3>Skills</h3>
+            <div className="skill-icons">
+              {skills.map((skill, index) => (
+                <p className="icon" key={index}>
+                  {skill}
+                </p>
+              ))}
+            </div>
           </div>
         </div>
       </div>
