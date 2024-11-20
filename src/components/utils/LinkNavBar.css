@@ -1,0 +1,24 @@
+.linkbar-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.8rem;
+  height: 15rem;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 768px) {
+  .linkbar-container {
+    flex-direction: row;
+    height: 3rem;
+    width: 18rem;
+    border-radius: 2px;
+    padding: 2rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    align-items: center;
+  }
+}
