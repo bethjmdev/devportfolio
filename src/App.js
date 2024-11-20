@@ -1,6 +1,7 @@
 import React from "react";
-import NavBar from "./components/NavBar";
+import NavBar from "./components/Navbar";
 import Header from "./components/Header";
+import LinkNavBar from "./components/utils/LinkNavBar";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
@@ -11,6 +12,48 @@ function App() {
     <div>
       <NavBar />
       <Header />
+      <About />
+      <Experience />
+      <Projects />
+      <Contact />
+      {/*  */}
+      <About />
+      <Experience />
+      <Projects />
+      <Contact />
+      <About />
+      <Experience />
+      <Projects />
+      <Contact />
+      <About />
+      <Experience />
+      <Projects />
+      <Contact />
+      <About />
+      <Experience />
+      <Projects />
+      <Contact />
+      <About />
+      <Experience />
+      <Projects />
+      <Contact />
+
+      <About />
+      <Experience />
+      <Projects />
+      <Contact />
+      <About />
+      <Experience />
+      <Projects />
+      <Contact />
+      <About />
+      <Experience />
+      <Projects />
+      <Contact />
+      <About />
+      <Experience />
+      <Projects />
+      <Contact />
       <About />
       <Experience />
       <Projects />

@@ -27,7 +27,6 @@ body {
   height: 100%;
   background-color: rgba(245, 245, 245, 0.6);
   z-index: 1;
-  /* outline: 1px solid red; */
 }
 
 .header-container {
@@ -41,13 +40,15 @@ body {
 }
 
 .LinkBar {
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 50%;
   transform: translateY(-50%);
   z-index: 1000;
   display: flex;
   align-items: center;
+  gap: 1rem;
+  width: auto;
 }
 
 .header-container h1 {
@@ -64,6 +65,9 @@ body {
 @media only screen and (max-width: 768px) {
   .header {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
   }
 
   .header-container {
@@ -76,10 +80,11 @@ body {
 
   .LinkBar {
     position: static;
-    transform: none;
     margin-top: 2rem;
-    width: 100%;
     display: flex;
     justify-content: center;
+    width: 100%;
+    gap: 2rem;
+    padding: 0;
   }
 }
