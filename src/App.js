@@ -1,11 +1,11 @@
 import React from "react";
 import NavBar from "./components/Navbar";
 import Header from "./components/Header";
-import LinkNavBar from "./components/utils/LinkNavBar";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
-import Contact from "./components/Contact";
+// import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,7 +15,8 @@ function App() {
       <About />
       <Experience />
       <Projects />
-      <Contact />
+      {/* <Contact /> */}
+      <Footer />
     </div>
   );
 }

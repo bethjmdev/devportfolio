@@ -17,7 +17,7 @@ function Header() {
             impactful tools along the way.
           </p>
           <PurpleButton padding=".9rem 2.5rem" fontSize="1rem">
-            work experience
+            <a href="#Experience">work experience</a>
           </PurpleButton>
         </div>
         <LinkNavBar className="LinkBar" />
