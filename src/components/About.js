@@ -52,7 +52,6 @@ function About() {
         <div className="info">
           <div className="know-me">
             <h4>Get to know me!</h4>
-            {/* <br /> */}
             <p>
               I’m a full-stack developer at Hōmbaez, a fintech and proptech
               company, where I build their B2B web app and B2C mobile app. My

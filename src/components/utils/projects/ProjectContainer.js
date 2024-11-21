@@ -19,8 +19,9 @@ function ProjectContainer({
   return (
     <div className="projectcontainer">
       <div
-        className="projectcontainer-container"
-        style={{ flexDirection: direction }}
+        className={`projectcontainer-container ${
+          direction === "row" ? "row" : "row-reverse"
+        }`}
       >
         <div className="image">
           <p>image</p>

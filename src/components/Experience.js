@@ -16,7 +16,7 @@ function Experience() {
           linkedIn={
             "https://www.linkedin.com/company/hombaez/posts/?feedView=all"
           }
-          direction={"row-reverse"}
+          direction="row-reverse"
           HeaderText={"HomHub at Hombaez"}
           Description={
             "Hōmbaez is a real estate platform that enables lenders to purchase exclusive zip codes for advertising, connecting them with homebuyers. I implemented features like real-time messaging, deal tracking, secure document upload, zip code purchasing for advertisement, and profile management. The platform is optimized for performance, with 64.3MB memory usage and a 798 ms API response time."
@@ -28,7 +28,7 @@ function Experience() {
         />
         <ProjectContainer
           website={"https://www.hombaez.com/"}
-          direction={"row-reverse"}
+          direction="row-reverse"
           linkedIn={
             "https://www.linkedin.com/company/hombaez/posts/?feedView=all"
           }
@@ -42,7 +42,7 @@ function Experience() {
         <ProjectContainer
           website={"https://waggyadoptquiz.netlify.app/"}
           gitHub={"https://github.com/bethjm/WaggyTailsApp "}
-          direction={"row-reverse"}
+          direction="row-reverse"
           HeaderText={"WaggyTail Animal Rescue"}
           dates={"Freelance Mobile Developer || Sept 2023 - January 2024"}
           Description={
