@@ -2,6 +2,10 @@ import React from "react";
 import "./Projects.css";
 import ProjectContainer from "../components/utils/projects/ProjectContainer";
 
+import DMDock from "../images/DMDockVideo.png";
+import LostWoods from "../images/LostWoodsVideo.png";
+import BrewMap from "../images/BrewMap.png";
+
 function Projects() {
   return (
     <div id="Projects" className="projects">
@@ -16,6 +20,7 @@ function Projects() {
           gitHub={"https://github.com/bethjmdev/brew_map"}
           loom={"youtube.com"}
           website={"youtube.com"}
+          image={BrewMap}
           direction="row"
           HeaderText={"BrewMap"}
           Description={
@@ -29,6 +34,8 @@ function Projects() {
           gitHub={"https://github.com/bethjm/dmdock-front-end "}
           loom={"https://www.loom.com/share/79a18aa78f994443b3b9c99917aa87a3"}
           direction="row"
+          image={DMDock}
+          playVideo={true}
           HeaderText={"DM Dock"}
           Description={
             "An online app for D&D Game Masters to easily access campaign details during gameplay. This allows them to research new monsters and save them to favorites. They are also able to save data about their players to easily access and change during gameplay."
@@ -42,6 +49,8 @@ function Projects() {
           loom={"https://www.loom.com/share/4a9cb9ff498d404d8b9e682739e0b3ee "}
           website={""}
           direction="row"
+          image={LostWoods}
+          playVideo={true}
           HeaderText={"Lost In The Woods"}
           Description={
             "Lost In The Woods is an app for outdoors people to search for hiking and camping spots in their area. Hikers are able to add new hikes for others to enjoy and comment on others' submissions."
