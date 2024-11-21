@@ -1,6 +1,8 @@
 import { React, useState } from "react";
 import "./NavBar.css";
 
+import NavImage from "../images/NavImage.png";
+
 function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -12,7 +14,8 @@ function NavBar() {
     <div className="navbar">
       <div className="navbar-container">
         <div className="logo">
-          <p>IMG</p>
+          {/* <p>IMG</p> */}
+          <img src={NavImage} alt="</>" />
           <p>Beth Mills</p>
         </div>
         <div className={`nav-links ${isMenuOpen ? "active" : ""}`}>

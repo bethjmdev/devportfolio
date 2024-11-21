@@ -2,6 +2,10 @@ import React from "react";
 import "./Projects.css";
 import ProjectContainer from "../components/utils/projects/ProjectContainer";
 
+import Homhub from "../images/HomHub.png";
+import HomApp from "../images/HApp.png";
+import Waggy from "../images/WaggyApp.png";
+
 function Experience() {
   return (
     <div id="Experience" className="experience">
@@ -13,6 +17,7 @@ function Experience() {
         </div>
         <ProjectContainer
           website={"https://www.hombaez.com/"}
+          image={Homhub}
           linkedIn={
             "https://www.linkedin.com/company/hombaez/posts/?feedView=all"
           }
@@ -28,6 +33,7 @@ function Experience() {
         />
         <ProjectContainer
           website={"https://www.hombaez.com/"}
+          image={HomApp}
           direction="row-reverse"
           linkedIn={
             "https://www.linkedin.com/company/hombaez/posts/?feedView=all"
@@ -41,6 +47,7 @@ function Experience() {
         />
         <ProjectContainer
           website={"https://waggyadoptquiz.netlify.app/"}
+          image={Waggy}
           gitHub={"https://github.com/bethjm/WaggyTailsApp "}
           direction="row-reverse"
           HeaderText={"WaggyTail Animal Rescue"}

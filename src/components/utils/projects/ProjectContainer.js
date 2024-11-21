@@ -10,11 +10,13 @@ function ProjectContainer({
   linkedIn,
   loom,
   website,
+  image,
   HeaderText,
   dates,
   Description,
   TechText,
   direction,
+  playVideo,
 }) {
   return (
     <div className="projectcontainer">
@@ -23,9 +25,18 @@ function ProjectContainer({
           direction === "row" ? "row" : "row-reverse"
         }`}
       >
-        <div className="image">
-          <p>image</p>
-        </div>
+        {playVideo ? (
+          <div className="image">
+            <a href={loom} target="_blank" rel="noopener noreferrer">
+              <img src={image} alt={"work experience photo"} />
+            </a>
+          </div>
+        ) : (
+          <div className="image">
+            <img src={image} alt={"work experience photo"} />
+          </div>
+        )}
+
         <div className="project-details">
           <div className="text">
             <h3>{HeaderText}</h3>
