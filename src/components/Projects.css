@@ -63,3 +63,15 @@
   font-weight: bold;
   text-align: center;
 }
+
+@media only screen and (max-width: 1200px) {
+  .experience-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .projects-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
