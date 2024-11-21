@@ -10,6 +10,7 @@ function ProjectContainer({
   linkedIn,
   loom,
   website,
+  image,
   HeaderText,
   dates,
   Description,
@@ -24,7 +25,7 @@ function ProjectContainer({
         }`}
       >
         <div className="image">
-          <p>image</p>
+          <img src={image} alt={"work experience photo"} />
         </div>
         <div className="project-details">
           <div className="text">
