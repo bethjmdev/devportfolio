@@ -11,9 +11,9 @@ function Header() {
         <div className="header-container">
           <h1>Hey, I'm Beth Mills</h1>
           <p>
-            I’m a Full Stack Developer who dives into big challenges, values
-            clear communication, and thrives on collaborative growth through
-            actionable feedback, constantly learning and building practical and
+            I’m a Full Stack Developer who embraces big challenges, values clear
+            communication, and thrives on collaborative growth through
+            actionable feedback. I’m constantly learning and creating practical,
             impactful tools along the way.
           </p>
           <PurpleButton padding=".9rem 2.5rem" fontSize="1rem">
