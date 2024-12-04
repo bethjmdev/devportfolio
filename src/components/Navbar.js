@@ -14,7 +14,6 @@ function NavBar() {
     <div className="navbar">
       <div className="navbar-container">
         <div className="logo">
-          {/* <p>IMG</p> */}
           <img src={NavImage} alt="</>" />
           <p>Beth Mills</p>
         </div>
@@ -23,7 +22,6 @@ function NavBar() {
           <a href="#About">About</a>
           <a href="#Experience">Work</a>
           <a href="#Projects">Projects</a>
-          <a href="#Contact">Contact</a>
         </div>
         <div className="hamburger" onClick={toggleMenu}>
           <div className="bar"></div>
