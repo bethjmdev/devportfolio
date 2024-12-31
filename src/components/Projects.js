@@ -5,6 +5,7 @@ import ProjectContainer from "../components/utils/projects/ProjectContainer";
 import DMDock from "../images/DMDockVideo.png";
 import LostWoods from "../images/LostWoodsVideo.png";
 import BrewMap from "../images/BrewMap.png";
+import BrewReview from "../images/brew_map_review.png";
 
 function Projects() {
   return (
@@ -18,16 +19,14 @@ function Projects() {
 
         <ProjectContainer
           gitHub={"https://github.com/bethjmdev/brew_map"}
-          loom={"youtube.com"}
-          website={"youtube.com"}
-          image={BrewMap}
+          // loom={"youtube.com"}
+          website={"https://brewmap-81a41.web.app/"}
+          image={BrewReview}
           direction="row"
           HeaderText={"BrewMap"}
-          Description={
-            "Created a map-based coffee shop search and review platform, leveraging Google Maps API and Firebase to help coffee enthusiasts discover shops tailored to their roast and flavor preferences. Integrated gamification features like 'Top Reviewer' and 'Caffeine Pioneer' badges to enhance user engagement. Built a custom web scraper to keep coffee shop bios and bean selections on BrewMap updated weekly, delivering accurate and fresh content to users."
-          }
+          Description={`BrewMap connects coffee lovers with detailed, insightful reviews of coffee shops, spotlighting roast profiles, drink styles, and origins. Discover shops through an interactive map, add reviews, and share bean details. Gamify your experience with badges like "Top Reviewer" and "Caffeine Pioneer." Follow friends to explore the shops they’re reviewing and adding, making coffee discovery more engaging and fun!`}
           TechText={
-            "React.js, Firebase, Google Maps API, Cheerio, Axiom, RESTful Routes, Google Cloud Functions, CSS"
+            "React.js, Firebase, Firebase Auth, Google Maps API, RESTful Routes, Google Cloud Functions, CSS, node-fetch"
           }
         />
         <ProjectContainer
@@ -44,7 +43,7 @@ function Projects() {
             "Teck Includes: Python, Django, PostgreSQL, JWT, React.js, JavaScript, React Router, Bulma.io"
           }
         />
-        <ProjectContainer
+        {/* <ProjectContainer
           gitHub={"https://github.com/Brett-Abramson/Lost_in_the_Woods "}
           loom={"https://www.loom.com/share/4a9cb9ff498d404d8b9e682739e0b3ee "}
           website={""}
@@ -56,7 +55,7 @@ function Projects() {
             "Lost In The Woods is an app for outdoors people to search for hiking and camping spots in their area. Hikers are able to add new hikes for others to enjoy and comment on others' submissions."
           }
           TechText={"JavaScript, MongoDB, Express, React.js, Node.js, Flexbox"}
-        />
+        /> */}
       </div>
     </div>
   );
