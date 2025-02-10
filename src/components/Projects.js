@@ -6,6 +6,7 @@ import DMDock from "../images/DMDockVideo.png";
 import LostWoods from "../images/LostWoodsVideo.png";
 import BrewMap from "../images/BrewMap.png";
 import BrewReview from "../images/brew_map_review.png";
+import VitalFormShot from "../images/VitalFormShot.png";
 
 function Projects() {
   return (
@@ -18,7 +19,7 @@ function Projects() {
         </div>
 
         <ProjectContainer
-          gitHub={"https://github.com/bethjmdev/brew_map"}
+          gitHub={"https://github.com/bethjmdev/trueform"}
           // loom={"youtube.com"}
           website={"https://brewmap-81a41.web.app/"}
           image={BrewReview}
@@ -27,6 +28,18 @@ function Projects() {
           Description={`BrewMap connects coffee lovers with detailed, insightful reviews of coffee shops, spotlighting roast profiles, drink styles, and origins. Discover shops through an interactive map, add reviews, and share bean details. Gamify your experience with badges like "Top Reviewer" and "Caffeine Pioneer." Follow friends to explore the shops they’re reviewing and adding, making coffee discovery more engaging and fun!`}
           TechText={
             "React.js, Firebase, Firebase Auth, Google Maps API, RESTful Routes, Google Cloud Functions, CSS, node-fetch"
+          }
+        />
+        <ProjectContainer
+          gitHub={"https://github.com/bethjmdev/brew_map"}
+          // loom={"youtube.com"}
+          // website={"https://brewmap-81a41.web.app/"}
+          image={VitalFormShot}
+          direction="row"
+          HeaderText={"VitalForm"}
+          Description={`Vital Form is a custom-built alternative to TrainHeroic, designed for trainers to create and assign workouts to their clients. Clients can log their workouts, track progress, and monitor weights and reps. Both trainers and clients have access to a history of completed workouts for better performance tracking.`}
+          TechText={
+            "React.js, Firebase, Firebase Auth, Firestore, CSS, JavaScript"
           }
         />
         <ProjectContainer
@@ -43,19 +56,6 @@ function Projects() {
             "Teck Includes: Python, Django, PostgreSQL, JWT, React.js, JavaScript, React Router, Bulma.io"
           }
         />
-        {/* <ProjectContainer
-          gitHub={"https://github.com/Brett-Abramson/Lost_in_the_Woods "}
-          loom={"https://www.loom.com/share/4a9cb9ff498d404d8b9e682739e0b3ee "}
-          website={""}
-          direction="row"
-          image={LostWoods}
-          playVideo={true}
-          HeaderText={"Lost In The Woods"}
-          Description={
-            "Lost In The Woods is an app for outdoors people to search for hiking and camping spots in their area. Hikers are able to add new hikes for others to enjoy and comment on others' submissions."
-          }
-          TechText={"JavaScript, MongoDB, Express, React.js, Node.js, Flexbox"}
-        /> */}
       </div>
     </div>
   );
