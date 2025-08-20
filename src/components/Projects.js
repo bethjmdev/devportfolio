@@ -2,7 +2,7 @@ import React from "react";
 import "./Projects.css";
 import ProjectContainer from "../components/utils/projects/ProjectContainer";
 
-import DMDock from "../images/DMDockVideo.png";
+import DMDock from "../images/Noodles_friends.png";
 import LostWoods from "../images/LostWoodsVideo.png";
 import BrewMap from "../images/BrewMap.png";
 import BrewReview from "../images/brew_map_review.png";
@@ -17,23 +17,25 @@ function Projects() {
 
           <hr id="hr" />
         </div>
-
         <ProjectContainer
-          gitHub={"https://github.com/bethjmdev/trueform"}
-          // loom={"youtube.com"}
-          website={"https://brewmap-81a41.web.app/"}
-          image={BrewReview}
+          gitHub={"https://github.com/bethjm/dmdock-front-end "}
+          // loom={"https://www.loom.com/share/79a18aa78f994443b3b9c99917aa87a3"}
+          website={"https://dmdock-luv.firebaseapp.com/signup"}
           direction="row"
-          HeaderText={"BrewMap"}
-          Description={`BrewMap connects coffee lovers with detailed, insightful reviews of coffee shops, spotlighting roast profiles, drink styles, and origins. Discover shops through an interactive map, add reviews, and share bean details. Gamify your experience with badges like "Top Reviewer" and "Caffeine Pioneer." Follow friends to explore the shops they’re reviewing and adding, making coffee discovery more engaging and fun!`}
+          image={DMDock}
+          playVideo={true}
+          HeaderText={"DM Dock"}
+          Description={
+"An online app for D&D Game Masters to easily access campaign details during gameplay. This app lets them manage their whole campaign from one website. DM's can: Save player details on a card, Save NPC player details on a card, Input their own custom seasons and weather patterns then randomly generate weather for the day, Research new monsters and save on an info card, Research new NPC's and save on an info card"          }
           TechText={
-            "React.js, Firebase, Firebase Auth, Google Maps API, RESTful Routes, Google Cloud Functions, CSS, node-fetch"
+            "React.js, Firebase, Firebase Auth, Firestore, CSS, JavaScript"
           }
         />
-        <ProjectContainer
-          gitHub={"https://github.com/bethjmdev/brew_map"}
+                <ProjectContainer
+          gitHub={"https://github.com/bethjmdev/trueform"}
+
           // loom={"youtube.com"}
-          // website={"https://brewmap-81a41.web.app/"}
+          website={"https://trueform-b27c0.web.app/"}
           image={VitalFormShot}
           direction="row"
           HeaderText={"VitalForm"}
@@ -42,18 +44,18 @@ function Projects() {
             "React.js, Firebase, Firebase Auth, Firestore, CSS, JavaScript"
           }
         />
+  
         <ProjectContainer
-          gitHub={"https://github.com/bethjm/dmdock-front-end "}
-          loom={"https://www.loom.com/share/79a18aa78f994443b3b9c99917aa87a3"}
+          gitHub={"https://github.com/bethjmdev/brew_map"}
+
+          // loom={"youtube.com"}
+          website={"https://brewmap-81a41.web.app/"}
+          image={BrewReview}
           direction="row"
-          image={DMDock}
-          playVideo={true}
-          HeaderText={"DM Dock"}
-          Description={
-            "An online app for D&D Game Masters to easily access campaign details during gameplay. This allows them to research new monsters and save them to favorites. They are also able to save data about their players to easily access and change during gameplay."
-          }
+          HeaderText={"BrewMap"}
+          Description={`BrewMap connects coffee lovers with detailed, insightful reviews of coffee shops, spotlighting roast profiles, drink styles, and origins. Discover shops through an interactive map, add reviews, and share bean details. Gamify your experience with badges like "Top Reviewer" and "Caffeine Pioneer." Follow friends to explore the shops they’re reviewing and adding, making coffee discovery more engaging and fun!`}
           TechText={
-            "Teck Includes: Python, Django, PostgreSQL, JWT, React.js, JavaScript, React Router, Bulma.io"
+            "React.js, Firebase, Firebase Auth, Google Maps API, RESTful Routes, Google Cloud Functions, CSS, node-fetch"
           }
         />
       </div>
